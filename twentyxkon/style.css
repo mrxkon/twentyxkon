@@ -1,0 +1,115 @@
+/*
+ Theme Name:   Twenty Xkon
+ Theme URI:    https://xkon.gr
+ Description:  Twenty Fifteen Child Theme
+ Author:       Xenos (xkon) Konstantinos
+ Author URI:   https://xkon.gr
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-xkon
+*/
+
+/*
+ Props to all the people that had originally contributed on TwentyFifteen theme.
+*/
+
+.sidebar * {
+	text-align: center;
+}
+
+.site-description {
+	display: block;
+	margin: 0.5em 0;
+}
+
+.site-branding {
+	padding-right: 0;
+}
+
+.secondary-toggle {
+	top: 0;
+}
+
+.gravatar-logo {
+	display: block;
+	margin-bottom: 2rem;
+}
+
+#to-top {
+	display: none;
+	position: fixed;
+	bottom: 3.5rem;
+	right: 0;
+	z-index: 1000;
+	width: 2.5em;
+}
+
+.social-media-icons {
+	font-size: 20px;
+}
+
+table, td {
+	border-width: 0;
+}
+
+td {
+	border-bottom-width: 1px;
+}
+
+video {
+	width: 100% !important;
+	height: auto !important;
+}
+
+body:before {
+	max-width: 313px;
+}
+
+#sidebar {
+	left: 0;
+}
+
+#page {
+	margin-left: 0;
+}
+
+@media screen and (min-width: 77.5em) {
+	.site-content {
+		margin-left: 23.2%;
+		width: 76.8%;
+	}
+}
+
+@media screen and (min-width: 59.6875em) {
+	.sidebar {
+		max-width: 313px;
+	}
+
+	.site-footer { /* Not pixel perfect */
+		margin: 0 0 0 25.8%;
+		width: 71.5%;
+	}
+
+	.hentry, .page-header, .page-content {
+		margin: 0 3.3333%;
+	}
+
+	.comments-area, .post-navigation {
+		margin: 8.3333% 3.3333% 0;
+	}
+
+	.entry-content, .entry-summary {
+		padding: 0 7% 10%;
+	}
+
+	.hentry img {
+		width: 100%;
+	}
+
+	.entry-header {
+		padding: 0 7%;
+	}
+}
