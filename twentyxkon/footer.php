@@ -21,7 +21,9 @@
 				 * @since Twenty Fifteen 1.0
 				 */
 				do_action( 'twentyfifteen_credits' );
+				$siteurl = get_bloginfo('url');
 			?>
+			&copy; <a href="<?php echo $siteurl; ?>">Xenos (xkon) Konstantinos</a> - <a href="https://github.com/mrxkon/twentyxkon">This theme</a> is based on <a href="https://wordpress.org/themes/twentyfifteen/">Twenty Fifteen</a><br/>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
