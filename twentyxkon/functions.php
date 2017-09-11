@@ -5,7 +5,6 @@ define( 'TWENTYXKON_VERSION', '1.0.0' );
 /*-----------------------------------------------------------------------------------*/
 /* Styles & Scripts
 /*-----------------------------------------------------------------------------------*/
-
 function twenty_xkon_enqueue_styles() {
 
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -14,6 +13,8 @@ function twenty_xkon_enqueue_styles() {
 		array( 'parent-style' ),
 		wp_get_theme()->get( 'Version' )
 	);
+
+	wp_enqueue_style( 'dashicons' );
 
 	$tx_min_fa_css = ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ? '/font-awesome/css/font-awesome.css' : '/font-awesome/css/font-awesome.min.css';
 	wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . $tx_min_fa_css );

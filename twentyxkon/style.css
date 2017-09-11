@@ -92,6 +92,336 @@ body:before {
 	box-shadow: none;
 }
 
+.wpgreecelink {
+	border-bottom: 0 !important;
+}
+
+.wpgreecelink img {
+	border-bottom: 0 !important;
+	display:inline-block;
+	max-height:43px;
+}
+
+.user-badges {
+	list-style: none;
+	clear: both;
+	width: 100%;
+	display: table;
+	margin: 0 auto !important;
+}
+
+.user-badges li {
+	display: inline-block !important;
+}
+
+.user-badges .dashicons, .user-badges .dashicons-before:before {
+	width: 25px !important;
+	height: 25px !important;
+}
+
+.dashicons-editor-code:before {
+	margin-left: 1px !important;
+}
+
+.badge {
+	margin: 4px;
+	/*margin-right: 15px;*/
+	margin-bottom: 23px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid white;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.badge-themes-reviewer {
+	background: rgba(78, 50, 136, 0.25);
+	box-shadow: 0 0 0 2px rgb(78, 50, 136);
+}
+
+.badge-themes-reviewer:before {
+	color: rgb(78, 50, 136);
+}
+
+.badge-themes {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(78, 50, 136);
+}
+
+.badge-themes:before {
+	color: rgb(78, 50, 136);
+}
+
+.badge-plugins-reviewer {
+	background: rgba(240, 103, 35, 0.25);
+	box-shadow: 0 0 0 2px rgb(240, 103, 35);
+}
+
+.badge-plugins-reviewer:before {
+	color: rgb(240, 103, 35);
+}
+
+.badge-plugins {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(240, 103, 35);
+}
+
+.badge-plugins:before {
+	color: rgb(240, 103, 35);
+}
+
+.badge-community {
+	background: rgba(17, 121, 157, 0.25);
+	box-shadow: 0 0 0 2px rgb(17, 121, 157);
+}
+
+.badge-community:before {
+	color: rgb(17, 121, 157);
+}
+
+.badge-community-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(17, 121, 157);
+}
+
+.badge-community-contributor:before {
+	color: rgb(17, 121, 157);
+}
+
+.badge-meta {
+	background: rgba(174, 173, 173, 0.25);
+	box-shadow: 0 0 0 2px rgb(174, 173, 173);
+}
+
+.badge-meta:before {
+	color: rgb(174, 173, 173);
+}
+
+.badge-meta-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(174, 173, 173);
+}
+
+.badge-meta-contributor:before {
+	color: rgb(174, 173, 173);
+}
+
+.badge-code-committer {
+	background: rgba(205, 0, 0, 0.25);
+	box-shadow: 0 0 0 2px rgb(205, 0, 0);
+}
+
+.badge-code-committer:before {
+	color: rgb(205, 0, 0);
+}
+
+.badge-code {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(205, 0, 0);
+}
+
+.badge-code:before {
+	color: rgb(205, 0, 0);
+}
+
+.badge-support {
+	background: rgba(51, 180, 206, 0.25);
+	box-shadow: 0 0 0 2px rgb(51, 180, 206);
+}
+
+.badge-support:before {
+	color: rgb(51, 180, 206);
+}
+
+.badge-support-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(51, 180, 206);
+}
+
+.badge-support-contributor:before {
+	color: rgb(51, 180, 206);
+}
+
+.badge-wordpress-tv {
+	background: rgba(115, 173, 48, 0.25);
+	box-shadow: 0 0 0 2px rgb(115, 173, 48);
+}
+
+.badge-wordpress-tv:before {
+	color: rgb(115, 173, 48);
+}
+
+.badge-wordpress-tv-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(115, 173, 48);
+}
+
+.badge-wordpress-tv-contributor:before {
+	color: rgb(115, 173, 48);
+}
+
+.badge-organizer {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(247, 173, 67);
+}
+
+.badge-organizer:before {
+	color: rgb(247, 173, 67);
+}
+
+.badge-speaker {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(247, 173, 67);
+}
+
+.badge-speaker:before {
+	color: rgb(247, 173, 67);
+}
+
+.badge-accessibility {
+	background: rgba(17, 121, 157, 0.25);
+	box-shadow: 0 0 0 2px rgb(17, 121, 157);
+}
+
+.badge-accessibility:before {
+	color: rgb(17, 121, 157);
+}
+
+.badge-documentation {
+	background: rgba(59, 114, 54, 0.25);
+	box-shadow: 0 0 0 2px rgb(59, 114, 54);
+}
+
+.badge-documentation:before {
+	color: rgb(59, 114, 54);
+}
+
+.badge-documentation-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(59, 114, 54);
+}
+
+.badge-documentation-contributor:before {
+	color: rgb(59, 114, 54);
+}
+
+.badge-mobile {
+	background: rgba(251, 161, 108, 0.25);
+	box-shadow: 0 0 0 2px rgb(251, 161, 108);
+}
+
+.badge-mobile:before {
+	color: rgb(251, 161, 108);
+}
+
+.badge-training-team {
+	background: rgba(233, 192, 45, 0.25);
+	box-shadow: 0 0 0 2px rgb(233, 192, 45);
+}
+
+.badge-training-team:before {
+	color: rgb(233, 192, 45);
+}
+
+.badge-training {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(233, 192, 45);
+}
+
+.badge-training:before {
+	color: rgb(233, 192, 45);
+}
+
+.badge-translation-editor {
+	background: rgba(195, 34, 131, 0.25);
+	box-shadow: 0 0 0 2px rgb(195, 34, 131);
+}
+
+.badge-translation-editor:before {
+	color: rgb(195, 34, 131);
+}
+
+.badge-translation-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(195, 34, 131);
+}
+
+.badge-translation-contributor:before {
+	color: rgb(195, 34, 131);
+}
+
+.badge-design {
+	background: rgba(238, 194, 106, 0.25);
+	box-shadow: 0 0 0 2px rgb(238, 194, 106);
+}
+
+.badge-design:before {
+	color: rgb(238, 194, 106);
+}
+
+.badge-design-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(238, 194, 106);
+}
+
+.badge-design-contributor:before {
+	color: rgb(238, 194, 106);
+}
+
+.badge-marketing {
+	background: rgba(71, 190, 167, 0.25);
+	box-shadow: 0 0 0 2px rgb(71, 190, 167);
+}
+
+.badge-marketing:before {
+	color: rgb(71, 190, 167);
+}
+
+.badge-marketing-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(71, 190, 167);
+}
+
+.badge-marketing-contributor:before {
+	color: rgb(71, 190, 167);
+}
+
+.badge-wp-cli {
+	background: rgba(66, 66, 66, 0.25);
+	box-shadow: 0 0 0 2px rgb(66, 66, 66);
+}
+
+.badge-wp-cli:before {
+	color: rgb(66, 66, 66);
+}
+
+.badge-wp-cli-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(66, 66, 66);
+}
+
+.badge-wp-cli-contributor:before {
+	color: rgb(66, 66, 66);
+}
+
+.badge-hosting {
+	background: rgba(83, 88, 166, 0.25);
+	box-shadow: 0 0 0 2px rgb(83, 88, 166);
+}
+
+.badge-hosting:before {
+	color: rgb(83, 88, 166);
+}
+
+.badge-hosting-contributor {
+	background: white;
+	box-shadow: 0 0 0 2px rgb(83, 88, 166);
+}
+
+.badge-hosting-contributor:before {
+	color: rgb(83, 88, 166);
+}
+
 @media screen and (min-width: 77.5em) {
 	.site-content {
 		margin-left: 23.2%;
@@ -122,6 +452,10 @@ body:before {
 	}
 
 	.hentry img {
+		width: auto;
+	}
+
+	article .post-thumbnail img {
 		width: 100%;
 	}
 
